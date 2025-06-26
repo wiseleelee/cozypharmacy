@@ -31,23 +31,6 @@ export default function Home() {
         </nav>
       </header>
       <main>
-        <section id="home" className="modern-hero">
-          <div className="container hero-flex">
-            <div className="hero-text">
-              <h1>Join our 28-day health &amp; wellness program</h1>
-              <ul className="hero-benefits">
-                <li>Personalized Care</li>
-                <li>Expert Pharmacists</li>
-                <li>Lasting Benefits</li>
-              </ul>
-              <p className="hero-sub">Your trusted community pharmacy in Seremban</p>
-              <a href="#contact" className="cta-button">Enroll Now</a>
-            </div>
-            <div className="hero-image">
-              <Image src="/images.jpeg" alt="Pharmacy Program" height={233} width={350} style={{ borderRadius: '1.5rem', width: '350px', boxShadow: '0 8px 32px rgba(102,126,234,0.15)' }} />
-            </div>
-          </div>
-        </section>
         <section id="about" className="about">
           <div className="container">
             <div className="about-content">
