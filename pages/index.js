@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       <header className="modern-header">
         <nav className="container modern-nav">
           <div className="logo">
-            <img src="/images.jpeg" alt="Cozy Pharmacy Logo" style={{ height: '2.5rem', width: '2.5rem', marginRight: '10px', borderRadius: '8px', objectFit: 'cover' }} />
+            <Image src="/images.jpeg" alt="Cozy Pharmacy Logo" height={40} width={40} style={{ height: '2.5rem', width: '2.5rem', marginRight: '10px', borderRadius: '8px', objectFit: 'cover' }} />
             Cozy Pharmacy
           </div>
           <ul className="nav-links">
@@ -32,7 +34,7 @@ export default function Home() {
         <section id="home" className="modern-hero">
           <div className="container hero-flex">
             <div className="hero-text">
-              <h1>Join our 28-day health & wellness program</h1>
+              <h1>Join our 28-day health &amp; wellness program</h1>
               <ul className="hero-benefits">
                 <li>Personalized Care</li>
                 <li>Expert Pharmacists</li>
@@ -42,7 +44,7 @@ export default function Home() {
               <a href="#contact" className="cta-button">Enroll Now</a>
             </div>
             <div className="hero-image">
-              <img src="/images.jpeg" alt="Pharmacy Program" style={{ borderRadius: '1.5rem', width: '350px', boxShadow: '0 8px 32px rgba(102,126,234,0.15)' }} />
+              <Image src="/images.jpeg" alt="Pharmacy Program" height={233} width={350} style={{ borderRadius: '1.5rem', width: '350px', boxShadow: '0 8px 32px rgba(102,126,234,0.15)' }} />
             </div>
           </div>
         </section>
@@ -175,7 +177,7 @@ export default function Home() {
             </div>
             <div className="service-card-modern">
               <h3>Custom Individual Package</h3>
-              <p>Tailored to your unique health needs.</p>
+              <p>Tailored to your unique health needs.&apos;</p>
               <div className="service-price">Price Varies</div>
               <a className="service-cta" href="#">Add To Cart</a>
             </div>
@@ -186,14 +188,14 @@ export default function Home() {
         <section className="feature-section">
           <div className="container feature-flex">
             <div className="feature-image">
-              <img src="/images.jpeg" alt="Natural Healing" />
+              <Image src="/images.jpeg" alt="Natural Healing" height={213} width={320} style={{ borderRadius: '1.5rem', width: '320px', boxShadow: '0 8px 32px rgba(102,126,234,0.10)' }} />
             </div>
             <div className="feature-text">
-              <h2>Unlock your body's full healing potential with nature</h2>
+              <h2>Unlock your body&apos;s full healing potential with nature</h2>
               <ul className="feature-list">
                 <li>Expert remedy preparation</li>
                 <li>Custom potency formulation</li>
-                <li>Careful & fast shipping</li>
+                <li>Careful &amp; fast shipping</li>
               </ul>
               <a className="feature-cta" href="#">Learn More</a>
             </div>
@@ -210,7 +212,7 @@ export default function Home() {
               <a className="highlight-cta" href="#">Learn More About Nature Healing</a>
             </div>
             <div className="highlight-image">
-              <img src="/images.jpeg" alt="Promo" />
+              <Image src="/images.jpeg" alt="Promo" height={147} width={220} style={{ borderRadius: '1.5rem', width: '220px', boxShadow: '0 8px 32px rgba(102,126,234,0.10)' }} />
             </div>
           </div>
         </section>
@@ -219,15 +221,15 @@ export default function Home() {
         <section className="testimonials-section">
           <div className="container testimonials-grid">
             <div className="testimonial-card">
-              <div className="testimonial-text">“Chronic Tiredness: I feel so much better after my healing journey with Cozy Pharmacy!”</div>
+              <div className="testimonial-text">&ldquo;Chronic Tiredness: I feel so much better after my healing journey with Cozy Pharmacy!&rdquo;</div>
               <div className="testimonial-author">- A. Lee</div>
             </div>
             <div className="testimonial-card">
-              <div className="testimonial-text">“High Blood Pressure: My readings are down and I feel more energetic.”</div>
+              <div className="testimonial-text">&ldquo;High Blood Pressure: My readings are down and I feel more energetic.&rdquo;</div>
               <div className="testimonial-author">- S. Tan</div>
             </div>
             <div className="testimonial-card">
-              <div className="testimonial-text">“Personalized approach and caring staff. Highly recommended!”</div>
+              <div className="testimonial-text">&ldquo;Personalized approach and caring staff. Highly recommended!&rdquo;</div>
               <div className="testimonial-author">- M. Kumar</div>
             </div>
           </div>
@@ -237,7 +239,7 @@ export default function Home() {
       <footer className="modern-footer">
         <div className="container footer-flex">
           <div className="footer-logo">
-            <img src="/images.jpeg" alt="Cozy Pharmacy Logo" style={{ height: '2rem', width: '2rem', marginRight: '8px', borderRadius: '6px', objectFit: 'cover' }} />
+            <Image src="/images.jpeg" alt="Cozy Pharmacy Logo" height={32} width={32} style={{ height: '2rem', width: '2rem', marginRight: '8px', borderRadius: '6px', objectFit: 'cover' }} />
             Cozy Pharmacy
           </div>
           <div className="footer-links">
