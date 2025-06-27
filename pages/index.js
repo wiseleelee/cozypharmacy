@@ -43,9 +43,6 @@ export default function Home() {
               <p className="hero-sub">Your trusted community pharmacy in Seremban</p>
               <a href="#contact" className="cta-button">Enroll Now</a>
             </div>
-            <div className="hero-image">
-              <Image src="/images.jpeg" alt="Pharmacy Program" height={233} width={350} style={{ borderRadius: '1.5rem', width: '350px', boxShadow: '0 8px 32px rgba(102,126,234,0.15)' }} />
-            </div>
           </div>
         </section>
         <section id="about" className="about">
